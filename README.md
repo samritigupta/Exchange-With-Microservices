@@ -1,6 +1,13 @@
 # Exchange-With-Microservices
 Project on end-end demonstration of use of microservices.
 
+# Overview
+- Different microservices created
+<img src="Images/overview.jpeg" width=250 height=300/>
+
+- Ribbon for load balancing
+<img src="Images/Ribbon.jpeg" width=250 height=300/>
+
 # Components
 - Created different microservices
 - Establish communication between microservices
