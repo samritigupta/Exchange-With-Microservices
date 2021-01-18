@@ -20,3 +20,4 @@ Project on end-end demonstration of use of microservices.
 - Centralize the configuration of microservices with Spring Cloud Config Server
 - Implement Eureka Naming Server and Distributed tracing with Spring Cloud Sleuth and Zipkin
 - Created fault tolerant microservices with Zipkin.
+- Used H2 database for saving information
