@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="edb6b904-19cb-4ae6-9991-196b288096c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-02 at 18.04.38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Screenshot 2020-12-02 at 18.04.38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-02 at 18.08.27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Fault_Tolerant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-03 at 10.42.16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-03 at 10.50.19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-03 at 10.50.26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-03 at 10.51.09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-03 at 22.06.21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-05 at 20.08.54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-06 at 14.23.58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Gateways.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-06 at 23.56.16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-07 at 11.09.21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-07 at 11.09.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Screenshot 2020-12-07 at 11.09.29.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,5 +69,16 @@
       <updated>1610821129753</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
