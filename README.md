@@ -2,14 +2,18 @@
 Project on end-end demonstration of use of microservices.
 
 # Overview
-- Different microservices created
+- Different microservices created. As shown in figure below.
+1. Currency Calculation
+2. Currency Exchange
+3. Limit 
+<br/>
 <img src="Images/overview.jpeg" width=250 height=200/>
 
-- Ribbon for load balancing and scaling
+- Ribbon is used for load balancing and scaling. It is connected with Eureka naming server for services information.
 <img src="Images/Ribbon.jpeg" width=250 height=200/>
 <img src="Images/scaling.jpeg" width=250 height=200/>
 
-- Zippin for load balancing
+- For monitoring and visibility Zippin is used. For transfering log messages Rabbit mq is being used.
 <img src="Images/Monitoring.jpeg" width=250 height=200/>
 
 # Components
