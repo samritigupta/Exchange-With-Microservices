@@ -1,6 +1,13 @@
 # Exchange-With-Microservices
 Project on end-end demonstration of use of microservices.
 
+# Technology used
+1. Spring Boot
+2. Ribbon for client side load balancing
+3. Rabbit Mq: transferring logs
+4. Zippin for monitoring 
+5. H2 Database 
+6. Eureka server 
 # Overview
 - Different microservices created. As shown in figure below.
 1. Currency Calculation
