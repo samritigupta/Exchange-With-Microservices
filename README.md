@@ -40,3 +40,12 @@ Three microservices Currency Calculation, Currency Exchange and Limit service us
 - Implement Eureka Naming Server and Distributed tracing with Spring Cloud Sleuth and Zipkin
 - Created fault tolerant microservices with Zipkin.
 - Used H2 database for saving information
+
+# Useful Urls:
+Eureka: http://localhost:8761/
+Limit service: http://localhost:8080/limits
+Currency exchange: http://localhost:8000/currency-exchange/from/USD/to/INR
+Currency Calculation: http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/1000
+H2 console: http://localhost:8000/h2-console
+Zuul: http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/1000 (Example)
+Config server: http://localhost:8888/limits-service/dev or http://localhost:8888/limits-service/qa
