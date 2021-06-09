@@ -7,7 +7,11 @@ Three microservices Currency Calculation, Currency Exchange and Limit service us
 3. Currency Calculation -> given a query from -> to and amount return the currency exchange value. It fetches currency exchange rate from 'Currency Exchange service'.
 4. netflix-zuul-api-gateway-server -> ZUUL used as API gateway which is basically a load balancer , that calls appropriate Currency Calculation microservice corresponding to request URL.
 5. netflix-eureka-naming-server -> for service discovery. Holds information about all client service applications. Each microservice registers itself with the Eureka naming server. The naming server registers the client services with their port numbers and IP addresses. It is also known as Discovery Server.
-6. 
+6. Zuul and Ribbon: 
+- ZUUL is a load balancer , routing application and reverse proxy server as well. That is before we were using apache for reverse proxy things , now , for microservices we can use ZUUL. Also ZUUL can act as a load balancer as well , which will pick the appropriate microservice in a round robin fashion. SO how does the ZUUL knows the details of microservices, the answer is eureka. It will work along with eureka to get microservice details. And in fact this ZUUL is also a Eureka client where we should mark using @EnableDiscoveryClient, thats how these 2 apps(Eureka and zuul) linked.
+
+- Ribbbon: Ribbon use for load balancing. This is already available inside ZUUL, in which zuul is using Ribbon for load balancing stuff. Microservices are identified by service-name in properties file. IF we run 2 instances of one microservices in different port, this will be identified by Eureka and along with Ribbon(Inside zuul), requests will be redirected in a balanced way.
+
 
 # Technology used
 1. Spring Boot
