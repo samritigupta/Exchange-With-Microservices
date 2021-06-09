@@ -41,6 +41,11 @@ Three microservices Currency Calculation, Currency Exchange and Limit service us
 - Created fault tolerant microservices with Zipkin.
 - Used H2 database for saving information
 
+# To run
+- Download the project
+- Run each service in following order
+- Eureka server -> config server -> Zuul server -> Limit service ->  Currency exchange -> Currency Calculation
+
 # Useful Urls:
 - Eureka: http://localhost:8761/
 - Limit service: http://localhost:8080/limits
