@@ -42,7 +42,7 @@ Three microservices Currency Calculation, Currency Exchange and Limit service us
 - Used H2 database for saving information
 
 # To run
-- Download the project
+- Clone the project
 - Run each service in following order
 - Eureka server -> config server -> Zuul server -> Limit service ->  Currency exchange -> Currency Calculation
 
